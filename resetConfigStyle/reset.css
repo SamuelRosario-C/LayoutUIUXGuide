@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none; 
+    /* text remove linhas dos links "a" */
+}
+
+body{
+    background: linear-gradient( 160deg, #FFFFFF, #3B7AB4) ;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 130vh;
+}
+
+#container{
+    background-color: #1E1E1E;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    max-width: 60vw;
+    width: 60vw;
+    position: absolute;
+}

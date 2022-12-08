@@ -1,0 +1,64 @@
+#asidePrincipal{
+    background-image: url(../../assets/img/fundo.svg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-origin:border-box;
+    background-color: #0a00ff;
+    height: 22.9vw;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#textosPrincipal{
+color: #ffffff;
+}
+
+#textosPrincipal h1{
+    font-size: calc(13vw + -9vw);
+}
+
+#textosPrincipal h2{
+    font-size: calc(5vw + -3vw);
+}
+
+#inscricao{
+    background-color: #ffffffe2;
+    width: 20vw;
+    height: 30vh;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inscricao h3, #inscricao p {
+    margin-bottom: 0.5rem;
+}
+
+#formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#formulario input{
+    border: none;
+    width: 18vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: #D9D9D9;
+}
+
+#formulario button {
+    border: none;
+    width: 15vw;
+    height: 6vh;
+    border-radius: 0.5rem;
+    background-color: #0D09C3;
+    font-size: 1.5vw;
+    color: #ffffff;
+}
